@@ -1,13 +1,5 @@
-const cvs = document.getElementById("snake");
-const ctx = document.getElementById("2d");
+const canvas = document.querySelector(".canvas");
+const ctx = canvas.getContext("2d");
+const scale = 10;
+const rows = canvas.height / scale;
 
-// creste the unit 
-
-const box = 32;
-
-// load imagens
-
-const ground = new Image();
-ground.src = "img/ground.png";
-
-const foodImg = new Image();
