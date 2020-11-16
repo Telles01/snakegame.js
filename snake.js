@@ -24,7 +24,7 @@ function Snake() {
 
         }
 
-        this.tailthis.total - 1] = {x: this.x, y: this.y};
+        this.tail[this.total - 1] = {x: this.x, y: this.y};
 
 
         this.x += this.xSpeed;
@@ -78,3 +78,4 @@ function Snake() {
         return false;
     }
 }
+
